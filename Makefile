@@ -52,4 +52,4 @@ libplink.a: putty/windows/winplink.o
 	$(AR) rcs $@ $(wildcard putty/windows/*.o)
 
 macssh.exe: macssh.o protocol.o interfaces.o mndp.o pgetopt.o utils.o libplink.a
-	$(CC) $(LDFLAGS) -o macssh.exe macssh.o protocol.o interfaces.o pgetopt.o utils.o mndp.o $(LIBS)
+	$(CC) $(LDFLAGS) -s -o macssh.exe macssh.o protocol.o interfaces.o pgetopt.o utils.o mndp.o $(LIBS)

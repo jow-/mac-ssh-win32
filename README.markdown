@@ -45,3 +45,10 @@ To build MAC-SSH clone the sources and execute "make" - the resulting
 
 Make will fetch, modify and compile PuTTY as part of the build process, this
 requires GNU wget and GNU sed on the build system.
+
+
+Download
+--------
+
+You can find a precompiled version of "macssh.exe" on
+subsignal.org(http://luci.subsignal.org/~jow/mac-ssh-win32/).
