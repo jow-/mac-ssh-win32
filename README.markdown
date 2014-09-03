@@ -13,8 +13,8 @@ MAC-Telnet server.
 
 SSH support is provided by an embedded copy of the PuTTY "plink.exe" utility.
 
-Parts of the code are taken from the OpenWrt libubox project
-(http://git.openwrt.org/?p=project/libubox.git).
+Parts of the code are taken from the 
+[OpenWrt libubox project](http://git.openwrt.org/?p=project/libubox.git).
 
 Command line processing is provided by a portable variant of a free IBM getopt()
 implementation, see pgetopt.c for licensing details.
@@ -51,4 +51,4 @@ Download
 --------
 
 You can find a precompiled version of "macssh.exe" on
-subsignal.org(http://luci.subsignal.org/~jow/mac-ssh-win32/).
+[subsignal.org](http://luci.subsignal.org/~jow/mac-ssh-win32/).
