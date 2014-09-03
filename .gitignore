@@ -1,0 +1,5 @@
+*.o
+libplink.a
+macssh.exe
+putty-src.zip
+putty/
